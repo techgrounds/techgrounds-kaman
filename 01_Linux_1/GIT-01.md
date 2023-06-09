@@ -16,6 +16,7 @@ GitHub is een online platform gebouwd rond Git dat een plek biedt waar deze code
 
 ## Opdracht
 ### Gebruikte bronnen
+https://github.com/techgrounds/techgrounds-kaman
 https://github.com/kaman-codes/techgrounds-kaman
 
 ### Ervaren problemen
