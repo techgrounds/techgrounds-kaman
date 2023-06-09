@@ -16,11 +16,11 @@ GitHub is een online platform gebouwd rond Git dat een plek biedt waar deze code
 
 ## Opdracht
 ### Gebruikte bronnen
-https://github.com/techgrounds/techgrounds-kaman
+https://github.com/techgrounds/techgrounds-kaman                  
 https://github.com/kaman-codes/techgrounds-kaman
 
 ### Ervaren problemen
-Het was mijn eerste kennismaking met Github en heb daarom veel tijd nodig gehad om uit te zoeken waar alle functies en knopjes onder verborgen zitten. Ook was ik lange tijd bezig met het begrijpen van de opdracht.
+Het was mijn eerste kennismaking met Github en heb daarom veel tijd nodig gehad om uit te zoeken waar alle functies en knopjes onder verborgen zitten. Ook was ik lange tijd bezig geweest met het begrijpen van de opdracht.
 
 ### Resultaat
 Ik heb een account aangemaakt op github. Daarna een repository aangemaakt en gedeeld met mijn teamgenoten en LC. 
