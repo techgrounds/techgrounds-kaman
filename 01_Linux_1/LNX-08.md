@@ -49,16 +49,15 @@ Om deze script aan crontab toe te voegen zodat hij elke minuut zal worden uitgev
 
 ![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-08_screen01.PNG)
 
-Om een script weekelijks uit te laten voeren die available disk space in een file schrijft in de map /var/logs zijn root-rechten voor nodig.
+Om een script weekelijks uit te laten voeren die available disk space in een file schrijft kun je de command **logger** gebruiken. Deze schrijf de output van `df -h` naar `/var/log/syslog`
 
 script:
 ```
 #!/bin/bash
-df -h >> /var/log/available_diskspace.log
+logger `df -h`
 ```
 
-`sudo crontab -e` gebruikt om in de crontab van de root user te schrijven.
 
 ![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-08_screen02.PNG)
 
-`1 * * * 1` zal uitgevoerd worden op minuut 1 van elke maandag. 
+`0 * * * 1` zal uitgevoerd worden op minuut 0 van elke maandag. 
