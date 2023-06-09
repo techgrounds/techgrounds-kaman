@@ -49,7 +49,7 @@ Om deze script aan crontab toe te voegen zodat hij elke minuut zal worden uitgev
 
 ![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-08_screen01.PNG)
 
-Om een script weekelijks uit te laten uitvoeren die available disk space in een file schrijft in de map /var/logs zijn root-rechten voor nodig.
+Om een script weekelijks uit te laten voeren die available disk space in een file schrijft in de map /var/logs zijn root-rechten voor nodig.
 
 script:
 ```
