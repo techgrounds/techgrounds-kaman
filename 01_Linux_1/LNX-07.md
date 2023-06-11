@@ -39,7 +39,7 @@ Probleem 4: De code wilde niet goed runnen. Ik kwam erachter dat er spaties tuss
 Een script die een tekstregel toevoegd elke keer als deze wordt uitgevoerd.
 
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen06.PNG)
+![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen01.PNG)
 
 Dit is de output van de script die apache2 installeerd (unattended), start, enabled en de status weergeeft.
 
@@ -58,7 +58,7 @@ sudo systemctl status apache2
 
 Deze script genereerd een random nummer en schrijft deze naar een text file.
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen04.PNG)
+![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen06.PNG)
 
 
 **exercise 3**
