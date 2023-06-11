@@ -47,7 +47,7 @@ Om deze script aan crontab toe te voegen zodat hij elke minuut zal worden uitgev
 
 `* * * * *` zal uitgevoerd worden elk minuut van het uur, dag, maand.
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-08_screen01.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-08_screen01.PNG)
 
 Om een script weekelijks uit te laten voeren die available disk space in een file schrijft kun je de command **logger** gebruiken. Deze schrijf de output van `df -h` naar `/var/log/syslog`
 
@@ -58,6 +58,6 @@ logger `df -h`
 ```
 
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-08_screen02.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-08_screen02.PNG)
 
 `0 * * * 1` zal uitgevoerd worden op minuut 0 van elke maandag. 

@@ -19,4 +19,4 @@ Ik kreeg al snel de melding "permission denied". Door te googlen heb ik kunnen v
 Het is gelukt om de verbinding te maken in Powershell met Openssh. Zie output:
 ```whoami```
 
-![LNX-01 screenshot](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-01_screenshot.PNG)
+![LNX-01 screenshot](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-01_screenshot.PNG)

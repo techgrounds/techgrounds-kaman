@@ -31,7 +31,7 @@ Deze instructie voegt de output van echo toe aan het eind van de file “sometex
  ``echo 'dit is de cloud opleiding van techgrounds' >> sometext``
 
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-03_screenshot01.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-03_screenshot01.PNG)
 
 
 Deze instructie geeft de output van cat als input door aan grep, die dan de zin die het woord techgrounds bevat als output teruggeeft.
@@ -39,7 +39,7 @@ Deze instructie geeft de output van cat als input door aan grep, die dan de zin 
 ``cat sometext | grep techgrounds`` 
 
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-03_screenshot02.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-03_screenshot02.PNG)
 
 
 Deze instructie pakt de output van de vorige opdracht en redirect hem naar het bestand techgrounds.txt. Omdat deze nog niet bestaat wordt deze aangemaakt.
@@ -48,7 +48,7 @@ Deze instructie pakt de output van de vorige opdracht en redirect hem naar het b
 ``cat sometext | grep techgrounds >techgrounds.txt`` 
 
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-03_screenshot03.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-03_screenshot03.PNG)
 
 
 

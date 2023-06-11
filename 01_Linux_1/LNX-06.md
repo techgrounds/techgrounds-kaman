@@ -26,7 +26,7 @@ telnet daemon gestart met `sudo systemctl start xinetd`
 
 Vervolgens kun je met  `sudo ps aux | grep xinetd` de PID en het geheugengebruik van xinetd weergeven
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-06_screen02.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/LNX-06_screen02.PNG)
 
 Stop de daemon met `sudo systemctl stop xinetd`
 
