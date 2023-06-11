@@ -43,6 +43,14 @@ Een script die een tekstregel toevoegd elke keer als deze wordt uitgevoerd.
 
 Dit is de output van de script die apache2 installeerd (unattended), start, enabled en de status weergeeft.
 
+```
+#!/bin/bash
+sudo apt-get install apache2 -y
+sudo systemctl start apache2
+sudo systemctl enable apache2
+sudo systemctl status apache2
+```
+
 ![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen03.PNG)
 
 
