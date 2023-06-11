@@ -58,7 +58,7 @@ sudo systemctl status apache2
 
 Deze script genereerd een random nummer en schrijft deze naar een text file.
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen06.PNG)
+![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen09.PNG)
 
 
 **exercise 3**
@@ -81,4 +81,4 @@ fi
 ```
 script:
 
-![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen05.PNG)
+![Image](https://github.com/kaman-codes/techgrounds-kaman/blob/main/00_includes/LNX-07_screen08.PNG)
