@@ -14,7 +14,7 @@ Mijn NWT-01 verslag
 
 ### Resultaat
 
-####Identify several other protocols and their associated OSI layer. Name at least one for each layer.
+#### Identify several other protocols and their associated OSI layer. Name at least one for each layer.
 
 - Netwerkprotocollen per OSI layer:
     - Layer 1 Physical Layer: geen protocollen
@@ -55,7 +55,7 @@ Enkele van deze instanties:
 - World Wide Web Consortium (W3C)
 
 Voor het introduceren van je eigen protocol zou je het eerst zelf moeten ontwikkelen. Het protocol moet daarna uitgebreid worden getest en grondig moeten worden gedocumenteerd.
-Vervolgens moet je anderen overtuigen het te gebruiken door het te promoten. Idealiter zou je ook nog willen dat je protocol wordt erkend door een standaardisatieorganisatie
+Vervolgens moet je anderen overtuigen het te gebruiken door het te promoten. Idealiter zou je ook nog willen dat je protocol wordt erkend door een standaardisatieorganisatie.
 
 
 #### Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
