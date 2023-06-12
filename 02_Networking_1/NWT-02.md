@@ -42,6 +42,7 @@ De meeste routers hebben een overzicht van alle verbonden apparaten, vind deze l
 - De interface waarop het apparaat op aangesloten is. LAN, Wifi 2.4Ghz of 5Ghz.
 
 Waar staat je DHCP server op jouw netwerk? Wat zijn de configuraties hiervan?
+
 De DHCP server staat op de modem op mijn netwerk.
 
 |           |             |
