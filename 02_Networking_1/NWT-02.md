@@ -3,11 +3,12 @@ Verschillende soorten netwerkapparatuur worden gebruikt om computers en andere a
 
 
 ## Key-terms
-
+- **DHCP** Dynamic Host Configuration Protocol
 
 ## Opdracht
 ### Gebruikte bronnen
 ChatGTP
+Mijn router
 
 ### Ervaren problemen
 Geen
