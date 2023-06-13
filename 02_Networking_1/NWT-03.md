@@ -3,11 +3,13 @@ Netwerkprotocollen zijn net als verkeersregels voor het internet. Ze vertellen c
 
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+Protocols
+
 
 ## Opdracht
 ### Gebruikte bronnen
-Mijn NWT-01 verslag
+- Mijn NWT-01 verslag
+- https://www.guru99.com/wireshark-passwords-sniffer.html
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
@@ -29,8 +31,8 @@ Mijn NWT-01 verslag
             * ICMP - wordt gebruikt door routers en switches om foutmeldingen en operationele informatie te verzenden en te ontvangen.
     - Layer 4 Transport Layer:
 
-            * TCP
-            * UDP
+            * TCP -  TCP is een verbindingsgericht protocol dat een betrouwbare, geordende en foutgecontroleerde levering van data verzorgd.
+            * UDP - UDP is eenvoudiger en sneller dan TCP. Het biedt geen garantie voor levering, behoud van volgorde, of foutcontrole.
     - Layer 5 Transport Layer:
     
             * SSH - zorgen een beveiligde sessie tussen een lokale en een externe host.
@@ -59,3 +61,14 @@ Vervolgens moet je anderen overtuigen het te gebruiken door het te promoten. Ide
 
 
 #### Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
+
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-03_screen01.PNG)
+
+De volgende protocollen zijn gevonden in de capture:
+- **TCP (Transmission Control Protocol)** - een verbindingsgericht protocol dat een betrouwbare, geordende en foutgecontroleerde levering van data verzorgd.
+- **UDP (User Datagram Protocol)** - eenvoudiger en sneller dan TCP. Het biedt geen garantie voor levering, behoud van volgorde, of foutcontrole.
+- **TLSv1.2 (Transport Layer Security version 1.2)** - wordt meestal gebruikt voor een beveiligde verbinding met websites.
+- **HTTP (Hypertext Transfer Protocol)** - HTTP wordt gebruikt voor webverkeer. 
+- **ARP (Address Resolution Protocol)** - wordt gebruikt om een IP-adres te koppelen aan een fysiek (MAC) adres op een lokaal netwerk. De ARP-cache op elke computer op een IPv4 netwerk houdt een lijst bij van elk IP-adres en het bijbehorende MAC-adres.
+- **QUIC (Quick UDP Internet Connections)** - een protocol ontwikkeld door Google en is ontworpen om sneller te zijn dan TCP en UDP.
+- **SSDP (Simple Service Discovery Protocol)** - Dit is als een service die apparaten op een netwerk helpt elkaar te vinden en met elkaar te communiceren. (layer 7)
