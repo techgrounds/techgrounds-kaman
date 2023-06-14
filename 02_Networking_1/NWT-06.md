@@ -7,11 +7,9 @@ Elk apparaat dat verbonden is met een netwerk, zoals een computer of een telefoo
 Subnetting werkt door extra bits van het hostdeel van het IP-adres te nemen en ze te gebruiken voor het netwerkdeel. Dit creëert extra "subnetten" binnen het oorspronkelijke netwerk, elk met zijn eigen reeks IP-adressen.
 
 ## Key-terms
-CIDR
-Subnet
-NAT
-Internet Gateway
-Router/switches
+- CIDR
+- Subnet
+- NAT
 
 ## Opdracht
 ### Gebruikte bronnen
@@ -56,6 +54,6 @@ Maak een netwerkarchitectuur die voldoet aan de volgende eisen:
     Beschikbare hostadressen: 10.0.0.83 - 10.0.0.112 (30 hostadressen)
 
 
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-06_screen01.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-06_screen01.png)
 
-![link](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-06_screen02.PNG)
+![link](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-06_screen02.png)
