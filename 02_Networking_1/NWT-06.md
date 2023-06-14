@@ -22,6 +22,7 @@ Router/switches
 
 
 ### Ervaren problemen
+Had de 2e pagina van de opdracht met het voorbeeld niet gezien. Had daarom veel tijd besteedt aan het uittekenen van de hele netwerktopologie, terwijl het niet hoefde.
 
 ### Resultaat
 #### Opdracht
