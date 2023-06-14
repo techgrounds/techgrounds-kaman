@@ -23,7 +23,6 @@ Router/switches
 
 ### Ervaren problemen
 
-
 ### Resultaat
 #### Opdracht
 Maak een netwerkarchitectuur die voldoet aan de volgende eisen:
@@ -31,28 +30,31 @@ Maak een netwerkarchitectuur die voldoet aan de volgende eisen:
 2. private subnet dat internet toegang heeft via een NAT gateway. Dit subnet moet minimaal 30 hosts kunnen plaatsen (de 30 hosts is exclusief de NAT gateway).
 3. public subnet met een internet gateway. Dit subnet moet minimaal 5 hosts kunnen plaatsen (de 5 hosts is exclusief de internet gateway).
 
-#### Public subnet: 192.168.1.0/29
+
+#### Network: 10.0.0.0/24
+
+#### Public subnet: 10.0.0.10/29
 
     Totale IP-adressen: 8
-    Netwerkadres: 192.168.1.0
-    Broadcastadres: 192.168.1.7
-    Beschikbare hostadressen: 192.168.1.1 - 192.168.1.6 (6 hostadressen)
+    Netwerkadres: 10.0.0.10
+    Broadcastadres: 10.0.0.17
+    Beschikbare hostadressen: 10.0.0.11 - 10.0.0.16 (6 hostadressen)
 
-#### Private subnet (min. 15 hosts): 192.168.1.9/27
-
-    Totale IP-adressen: 32
-    Netwerkadres: 192.168.1.8
-    Broadcastadres: 192.168.1.39
-    Beschikbare hostadressen: 192.168.1.9 - 192.168.1.38 (30 beschikbare hostadressen)
-
-#### Private subnet met internettoegang (min. 30): 192.168.1.40/26
+#### Private subnet met internettoegang (min. 30 hosts): 10.0.0.18/26
 
     Totale IP-adressen: 64
-    Netwerkadres: 192.168.1.40
-    Broadcastadres: 192.168.1.103
-    Beschikbare hostadressen: 192.168.1.41 - 192.168.1.102  (62 hostadressen)
+    Netwerkadres: 10.0.0.18
+    Broadcastadres: 10.0.0.81
+    Beschikbare hostadressen: 10.0.0.19 - 10.0.0.80 (62 hostadressen)
+    
+#### Private subnet (min. 15 hosts): 10.0.0.82/27
 
-In de router moet de routetable zo geconfigureerd zodat internetverkeer vanuit de public subnet door kan worden gegeven aan de Internet Gateway.
+    Totale IP-adressen: 32
+    Netwerkadres: 10.0.0.82
+    Broadcastadres: 10.0.0.113
+    Beschikbare hostadressen: 10.0.0.83 - 10.0.0.112 (30 hostadressen)
 
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-06_screen01.PNG)
+
+![link](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-06_screen02.PNG)
