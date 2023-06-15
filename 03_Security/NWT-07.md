@@ -32,7 +32,7 @@ Er is geen 1 juiste manier om netwerken te ontwerpen. Het ontwerp van de Youtube
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-07_screen02.png)
 
-#### DMZ: Webserver + credential database
+#### DMZ: Webserver
 De webserver heb ik in de DMZ geplaatst.
  Deze moet van buitenaf toegankelijk moeten zijn (voor klanten die de webshop bezoeken), maar die je toch zoveel mogelijk wilt afschermen van de rest van het interne netwerk voor beveiligingsdoeleinden. De webserver in de DMZ kan dan communiceren met de credential database via een beveiligde verbinding.
 
