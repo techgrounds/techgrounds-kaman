@@ -23,6 +23,7 @@ As a network administrator you get to choose which networking devices get used.
 ### Gebruikte bronnen
 - https://www.youtube.com/watch?v=xB7koECwqC0
 - https://medium.com/@nakah_/recommended-design-for-a-secure-network-architecture-15612e17ece4
+- ChatGPT
 
 ### Ervaren problemen
 Er is geen 1 juiste manier om netwerken te ontwerpen. Het ontwerp van de Youtube video vond ik het meest geschikt voor deze study case. Daarom heb ik deze als basis gebruikt en verder uitgewerkt.
@@ -44,7 +45,7 @@ De webserver en credentials database heb ik in de DMZ geplaatst
 
  #### Internal Network
  In het interne netwerk zijn 5 workstations en de printer verbonden aan een switch. 
- De AD server zou ook in dit netwerk kunnen staan want het moet makkelijk toegankelijk zijn voor de apparaten en gebruikers die verificatie en autorisatiediensten nodig hebben in het windows-domein. Maar omdat voor deze casus de nadruk ligt bij beveiliging, gaan we hem achter een firewall plaatsen.
+ De AD server zou ook in dit netwerk kunnen staan want het moet makkelijk toegankelijk zijn voor de apparaten en gebruikers die verificatie en autorisatiediensten nodig hebben in het windows-domein. Echter, vanwege de extra nadruk op beveiliging in deze casus, heb ik gekozen om de AD server achter een firewall te plaatsen.
  
 #### Internal Firewall
  Deze firewall isoleert de AD-server en de file server van het interne netwerk. Deze set-up zorgt voor extra beveiliging voor deze kritieke systemen. 
