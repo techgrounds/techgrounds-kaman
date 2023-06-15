@@ -32,7 +32,7 @@ Deze adressen zijn hetzelfde omdat deze apparaten aangesloten zijn op hetzelfde 
 #### Ontdek wat je privé IP adres is van je laptop en mobiel op wifi. Zijn de adressen hetzelfde of niet? Leg uit waarom.
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-05_screen01.PNG)
 
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-05_screen02.PNG)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-05_screen02.jpg)
 
 Deze zijn niet hetzelfde. Omdat apparaten een uniek ip nodig hebben om goed te kunnen functioneren binnen het lokale netwerk.
 
