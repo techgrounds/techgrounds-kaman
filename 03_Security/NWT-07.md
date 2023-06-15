@@ -30,12 +30,11 @@ Er is geen 1 juiste manier om netwerken te ontwerpen. Het ontwerp van de Youtube
 
 ### Resultaat
 
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-07_screen01.png)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-07_screen02.png)
 
 #### DMZ: Webserver + credential database
-De webserver en credentials database heb ik in de DMZ geplaatst
- Dit zijn de apparaten die van buitenaf toegankelijk moeten zijn (zoals voor klanten die de webshop bezoeken), maar die je toch zoveel mogelijk wilt afschermen van de rest van het interne netwerk voor beveiligingsdoeleinden.
- De webserver en de credentials database is toegankelijk voor het publiek, terwijl de interne netwerk nog steeds beschermd is tegen aanvallen.
+De webserver heb ik in de DMZ geplaatst.
+ Deze moet van buitenaf toegankelijk moeten zijn (voor klanten die de webshop bezoeken), maar die je toch zoveel mogelijk wilt afschermen van de rest van het interne netwerk voor beveiligingsdoeleinden. De webserver in de DMZ kan dan communiceren met de credential database via een beveiligde verbinding.
 
  #### Internet firewall
  Deze firewall is verbonden met de DMZ en de router en controleert en filtert het dataverkeer van en naar het internet.
@@ -51,5 +50,6 @@ De webserver en credentials database heb ik in de DMZ geplaatst
  Deze firewall isoleert de AD-server en de file server van het interne netwerk. Deze set-up zorgt voor extra beveiliging voor deze kritieke systemen. 
  Als een systeem in het interne netwerk "compromised" is, zal het veel moeilijker voor de attacker zijn om toegang te krijgen tot de interne servers.
 
- #### AD Server en File Server
+ #### AD Server, file Server en credential database
  Deze servers zijn verbonden met de interne firewall en zijn afgeschermd van het interne netwerk.
+

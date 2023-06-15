@@ -4,10 +4,10 @@ Een IP-adres (Internet Protocol-adres), is een exclusieve numerieke identificati
 Er zijn momenteel twee versies van IP-adressen in gebruik: IPv4, een 32-bits getal weergegeven in vier sets van getallen gescheiden door punten, en IPv6, een 128-bits getal weergegeven in acht groepen van vier hexadecimale getallen, gescheiden door dubbele punten.
 
 ## Key-terms
-Publiek IP
-Privé IP
-IPv4/IPv6
-NAT
+- Publiek IP
+- Privé IP
+- IPv4/IPv6
+- NAT
 
 
 ## Opdracht
@@ -15,7 +15,7 @@ NAT
 Geen bronnen gebruikt
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Geen.
 
 ### Resultaat
 #### Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.
