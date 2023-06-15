@@ -32,14 +32,15 @@ Er is geen 1 juiste manier om netwerken te ontwerpen. Het ontwerp van de Youtube
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/NWT-07_screen01.png)
 
 #### DMZ: Webserver + credential database
-De webserver en credential database heb ik in de DMZ geplaatst
+De webserver en credentials database heb ik in de DMZ geplaatst
  Dit zijn de apparaten die van buitenaf toegankelijk moeten zijn (zoals voor klanten die de webshop bezoeken), maar die je toch zoveel mogelijk wilt afschermen van de rest van het interne netwerk voor beveiligingsdoeleinden.
+ De webserver en de credentials database is toegankelijk voor het publiek, terwijl de interne netwerk nog steeds beschermd is tegen aanvallen.
 
  #### Internet firewall
- Deze firewall, verbonden met de DMZ en de router, controleert en filtert het dataverkeer van en naar het internet.
+ Deze firewall is verbonden met de DMZ en de router en controleert en filtert het dataverkeer van en naar het internet.
 
  #### Router
-  De router verbindt het interne netwerk (via de switch) en de internetfirewall. Dit apparaat is verantwoordelijk voor het routeren van verkeer en het verstrekken van IP-adressen aan de apparaten in het interne netwerk via DHCP.
+  De router verbindt het interne netwerk (via de switch) en de internet firewall. Dit apparaat is verantwoordelijk voor het routeren van verkeer en het verstrekken van IP-adressen aan de apparaten in het interne netwerk via DHCP.
 
  #### Internal Network
  In het interne netwerk zijn 5 workstations en de printer verbonden aan een switch. 
