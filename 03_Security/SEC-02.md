@@ -42,11 +42,12 @@ Open poort 22 voor ssh:
 ```sudo ufw allow ssh```
 
 
-Activeer de firefall vervolgens met:
+Vervolgens de firewall geactiveerd met:
 `sudo ufw enable`
 
 
 Status: `sudo ufw status verbose` 
+
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/SEC-02_screen02.png)
 
 
