@@ -14,6 +14,7 @@ Een firewall is als een bewaker voor je computer of netwerk. Het kijkt naar al h
 ### Gebruikte bronnen
 - https://www.cyberciti.biz/faq/how-to-configure-firewall-with-ufw-on-ubuntu-20-04-lts/
 - https://www.baeldung.com/cs/firewalls-stateless-vs-stateful
+- https://www.geeksforgeeks.org/difference-between-hardware-firewall-and-software-firewall/
 
 ### Ervaren problemen
 Geen.
