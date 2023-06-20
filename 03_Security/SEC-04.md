@@ -20,5 +20,3 @@ Geen.
 - AES (Advanced Encryption Standard)- is used in Wi-Fi networks to encrypt the data that is transmitted and received. For instance, WPA2 and WPA3. Also used in file encryption (Bitlocker for windows)
 - Blowfish and Twofish - Its being used for VPN and SSH connections, data encryption (Truecrypt, Veracrypt)
 
-Encrypted message `lzo kuxisqloisc:wccmv:o:`
-used cipher key 10
