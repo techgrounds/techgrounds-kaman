@@ -9,10 +9,11 @@ Symmetric encryption, also known as secret key encryption, is a type of encrypti
 
 ## Opdracht
 ### Gebruikte bronnen
-ChatGTP
+- ChatGTP
+- https://www.aesencryptiononline.com/2022/03/aes-decryption-function-ontools.html
 
 ### Ervaren problemen
-Geen.
+It failed to decrypt the encrypted message using different tool on the internet. It took me a long time to find the same tool that encrypted the message. With that, the message could be decrypted. Maybe the problem is this particular tool, which uses different arguments to encrypt.
 
 ### Resultaat
 
@@ -20,3 +21,7 @@ Geen.
 - AES (Advanced Encryption Standard)- is used in Wi-Fi networks to encrypt the data that is transmitted and received. For instance, WPA2 and WPA3. Also used in file encryption (Bitlocker for windows)
 - Blowfish and Twofish - Its being used for VPN and SSH connections, data encryption (Truecrypt, Veracrypt)
 
+Succesfully decrypted an encrypted message send by a peer. The message is encrypted using AES.
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/SEC-04_screen01.png)
+
+Both sender and receiver need the same key to read the message. The challenge is how to give this password to the receiver without anyone else finding it. This problem of securely sharing the key is the main challenge with symmetric encryption.
