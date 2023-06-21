@@ -1,9 +1,14 @@
 # Public Key Infrastructure
-This is a system that establishes trust and secure communication between entities over a public network such as the internet. PKI is used to manage the creation, distribution, identification, and revocation of public key certificates. It allows entities (like users or servers) to prove their identity to others, and securely exchange information with them. It's the foundation of services like SSL/TLS, which secures web traffic, and other forms of secure communication.
+Public Key Infrastructure (PKI) is a system of processes, technologies, and policies that allows you to encrypt and sign data. You can issue digital certificates that authenticate the identity of users, devices, or services. These certificates create a secure connection for both public web pages and private systems
+
+PKI is implemented by a variety of entities known as Certificate Authorities (CAs). These authorities are responsible for issuing, managing, and revoking digital certificates. 
+
 ## Key-terms
 - PKI
-- X.509
-- Certificate Authority (CA)
+- X.509 - a standard defining the format of public key certificates. These certificates are used in many Internet protocols, including TLS and SSL, which are the foundations of secure communications on the web.
+- Certificate Authority (CA) - The CA is a critical component within the PKI. It is responsible for authenticating the identity of the certificate applicant (which could be an individual, a server, a company, etc.) before issuing the certificate.
+- Registration Authority (RA): The RA is an entity that acts as the verifier for the certificate authority before a digital certificate is issued to a requestor. It's responsible for confirming the identity of entities requesting certificates.
+- End Entities (EE): These are the users of the digital certificates. They could be clients, servers, or even individual users. End entities use their certificates for secure communication, encryption/decryption, and digital signing of information.
 
 - Certificate paths
 
@@ -22,8 +27,9 @@ It follows a hierarchical structure that starts with the root certificate and en
 
 ## Opdracht
 ### Gebruikte bronnen
-https://geekrewind.com/how-to-create-self-signed-certificates-on-ubuntu-linux/
-
+- https://geekrewind.com/how-to-create-self-signed-certificates-on-ubuntu-linux/
+- https://www.keyfactor.com/education-center/what-is-pki/
+https://www.youtube.com/watch?v=kAaIYRJoJkc
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
 
