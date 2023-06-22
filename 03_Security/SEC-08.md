@@ -45,7 +45,7 @@ The processes of detection, response, and analysis are essential to cybersecurit
 - https://www.grcilaw.com/blog/what-is-cyber-incident-response#:~:text=Many%20organisations%20use%20NIST's%20Computer,eradication%2C%20recovery%20and%20lessons%20learned.
 - https://ubuntu.com/blog/what-is-system-hardening-definition-and-best-practices
 
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/SEC-08_screen01.png)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/SEC-08_screen01.jpg)
 
 ### Ervaren problemen
 No problems, just lots of reading.
