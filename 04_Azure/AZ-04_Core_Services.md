@@ -32,11 +32,6 @@ Azure Database for PostgreSQL
 SQL Managed Instance
 Azure Marketplace
 
-**Shared Responsibility Model**
-The shared responsibility model is a cloud security framework that outlines cloud providers' and customers' security obligations and responsibilities for ensuring accountability. In this arrangement, cloud providers are responsible for the security of the cloud, while customers handle the security in the cloud.
-
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-04_image.svg)
-
 ## Opdracht
 ### Gebruikte bronnen
 - [Study guide for Exam AZ-900: Microsoft
