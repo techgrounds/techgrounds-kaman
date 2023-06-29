@@ -1,5 +1,5 @@
-# [Onderwerp]
-The shared responsibility model is a cloud security framework that outlines cloud providers' and customers' security obligations and responsibilities for ensuring accountability. In this arrangement, cloud providers are responsible **for** the security of the cloud, while customers handle the security **in** the cloud.
+# Shared Responsibility Model
+The shared responsibility model is a cloud security framework that outlines cloud providers' and customers' security obligations and responsibilities for ensuring accountability. In this arrangement, cloud providers are responsible for the security of the cloud, while customers handle the security in the cloud.
 
 ## Key-terms
 - SaaS - Software as a service
@@ -17,9 +17,6 @@ ChatGPT
 Geen problemen ervaren.
 
 ### Resultaat
-
-**Shared Responsibility Model**
-The shared responsibility model is a cloud security framework that outlines cloud providers' and customers' security obligations and responsibilities for ensuring accountability. In this arrangement, cloud providers are responsible for the security of the cloud, while customers handle the security in the cloud.
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-04_image.svg)
 
