@@ -6,6 +6,12 @@ An Azure storage account contains all of your Azure Storage data objects: blobs,
 - Blob - Binary Large Object
 - Blob Storage
 - Containers
+- 3 Tiers: Hot, Cool, Archive
+- Azure Storage account is a collection of
+    - blob storage
+    - queue storage
+    - table storage
+    - file storage
 
 Azure Storage supports three types of blobs:
 - Block blobs store text and binary data. Block blobs are made up of blocks of data that can be managed individually. Block blobs can store up to about 190.7 TiB.
@@ -16,6 +22,7 @@ Azure Storage supports three types of blobs:
 ### Gebruikte bronnen
 - https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview
 - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host
+- https://www.youtube.com/watch?v=_Qlkvd4ZQuo
 
 ### Ervaren problemen
 Geen echte problemen ervaren. Moest in het begin uitzoeken waar alle instellingen staan en wat ze doen. 

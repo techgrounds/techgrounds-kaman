@@ -58,7 +58,7 @@ sudo mkdir /media/azureshareddisk
 sudo mount /dev/sdc /media/azureshareddisk
 ```
 
-Een aantal files aangemaakt in VM1 en zijn **15 minuten** later te zien in VM2. :angry::fu:
+Een aantal files aangemaakt in VM1 en zijn **15 minuten** later te zien in VM2. 
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-07_screen05.png)
 
