@@ -4,7 +4,7 @@ Azure Load Balancer is a highly scalable, fully managed service from Microsoft t
 Azure Autoscaling is a service in Azure that allows applications to perform optimally by automatically adjusting resources based on demand. It enables your applications to maintain high performance during peak traffic times and reduce costs by scaling down resources during off-peak times. Azure Autoscale uses a set of predefined rules and metrics such as CPU usage or memory demand to trigger scaling actions, ensuring that you have the right amount of resources at any given time.
 
 ## Key-terms
-- Autoscaling
+- Autoscaling -  a service that automatically adjusts the count or size of compute resources in an Azure service, based on demand and according to predefined rules, ensuring optimal performance and efficient use of resources.
 - VM Scale Set - Azure virtual machine scale sets let you create and manage a group of load balanced VMs. The number of VM instances can automatically increase or decrease in response to demand or a defined schedule. Scale sets provide high availability to your applications, and allow you to centrally manage, configure, and update a large number of VMs.
 
 - Azure Monitor

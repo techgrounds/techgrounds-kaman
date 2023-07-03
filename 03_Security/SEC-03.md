@@ -33,9 +33,9 @@ Authenticatie is het valideren van de identiteit van een gebruiker voordat ze to
 
 De drie factoren van authenticatie omvatten:
 
-- Iets wat je weet: Dit verwijst naar unieke informatie die alleen de gebruiker kent, zoals een wachtwoord, pincode of het antwoord op een beveiligingsvraag.
+- Iets wat je weet (knowledge factor): Dit verwijst naar unieke informatie die alleen de gebruiker kent, zoals een wachtwoord, pincode of het antwoord op een beveiligingsvraag.
 
-- Iets wat je hebt: Dit is een fysiek item dat de gebruiker bezit. Voorbeelden hiervan zijn een mobiele telefoon voor het ontvangen van verificatiecodes, een bankpas of een beveiligingstoken.
+- Iets wat je hebt (possession factor): Dit is een fysiek item dat de gebruiker bezit. Voorbeelden hiervan zijn een mobiele telefoon voor het ontvangen van verificatiecodes, een bankpas of een beveiligingstoken.
 
 - Iets wat je bent: Dit zijn de biometrische details van de gebruiker, zoals vingerafdrukken, gezichtsherkenning of retinascans.
 
