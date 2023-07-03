@@ -7,10 +7,6 @@ Azure Global Infrastructure is het wereldwijde netwerk van Microsoft dat bestaat
 - Region Pairs
 - Datacenters
 
-
-
-
-
 ## Opdracht
 ### Gebruikte bronnen
 - ChatGTP
