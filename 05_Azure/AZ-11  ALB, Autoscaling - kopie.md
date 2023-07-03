@@ -48,4 +48,4 @@ Er worden worden automatsich instances aangemaakt. Zie log:
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-11_screen04.png)
 
 De automatisch aangemaakte port mappings in de load balancer.
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-11_screen04.png)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-11_screen05.png)
