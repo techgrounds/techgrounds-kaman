@@ -3,11 +3,19 @@
 [Geef een korte beschrijving van het onderwerp]
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+- App Service
+- Content Delivery Network (CDN)
+- Azure DNS
+- Azure Files
+- Azure Database
 
 ## Opdracht
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+- https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-files/
+- https://learn.microsoft.com/en-us/training/modules/intro-to-azure-content-delivery-network/
+- https://learn.microsoft.com/en-us/training/modules/azure-database-fundamentals/
+
+
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]

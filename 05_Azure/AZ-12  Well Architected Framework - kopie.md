@@ -7,7 +7,7 @@ The Azure Well-Architected Framework is a set of guiding tenets that you can use
 - Operational excellence
 - Performance efficiency
 
-Incorporating these pillars helps produce a high quality, stable, and efficient cloud architecture:
+Incorporating these pillars helps produce a high quality, stable, and efficient cloud architecture.
 
 ## Key-terms"
 The 5 Pillars (CROPS):
@@ -16,9 +16,9 @@ The 5 Pillars (CROPS):
 Managing costs to maximize the value delivered.
 
 - Plan and estimate costs.
-- Provisioning with optimization - This includes selecting the appropriate service level for your workload, taking advantage of services that let you adjust the service level, and using discounts when available
+- Provisioning with optimization - This includes selecting the appropriate service level for your workload, taking advantage of services that let you adjust the service level, and using discounts when available.
 - Use monitoring and analytics to gain cost insights.
-- Identify and eliminate unnecessary expenses within your environment
+- Identify and eliminate unnecessary expenses within your environment.
 
 
 **Reliability**
@@ -68,7 +68,7 @@ Here is how each pillar of the Well-Architected Framework can be implemented usi
 The Azure Cost Management tools, can assist you in managing and optimizing cloud costs. By gaining visibilty into your usage and costs.
 
 #### Reliability
-Make use of services such as autoscaling, backups, and disaster recovery or making use of Availability Zones to increase reliability.
+Make use of services such as autoscaling, backups, and disaster recovery, Availability Zones to increase reliability.
 
 #### Operational Excellence
 Azure Monitor assists you in automating tasks. It helps you understand how your applications are performing, so you can respond to changes, and continuously improve processes. 
