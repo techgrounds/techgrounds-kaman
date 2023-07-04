@@ -1,4 +1,5 @@
-# [Onderwerp]
+# Files, AppServices, CDN, DNS, Database
+
 [Geef een korte beschrijving van het onderwerp]
 
 ## Key-terms
