@@ -5,6 +5,7 @@ This assignment delves into the exploration and application of various Azure ser
 
 ## Key-terms
 **App Service**
+
 Azure App Service is a Platform as a Service (PaaS) offering from Microsoft. It is used to host web applications, REST APIs, and backend services for mobile applications. It supports a wide variety of programming languages and frameworks, including .NET, .NET Core, Java, Ruby, Node.js, PHP, and Python.
 
 With on-premises hosting, you or your organization is responsible for managing everything, including maintaining physical servers, storage, networking equipment, power supply, cooling systems, and installing and configuring software. In contrast, Azure App Service is a PaaS offering, meaning that Azure manages everything except your application and its data.
@@ -23,6 +24,7 @@ The differences between Azure App Service and similar services:
 - You work in a fully managed production environment, support for multiple programming languages and frameworks, scalability and security features. It also supports containerization and Docker, allowing you to host custom Windows or Linux containers in App Service.
 
 **Content Delivery Network (CDN)**
+
 Azure Content Delivery Network (CDN) is a network of distributed servers designed to cache and store content that can be accessed by computers globally. The purpose of Azure CDN is to minimize the geographical distance between a website user and the server hosting the site, which can significantly contribute to latency. Azure CDN servers are located close to end users to reduce latency.
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-13_image01.png)
@@ -52,6 +54,7 @@ Azure CDN is particularly useful for technologies that employ many large static 
 Azure CDN can also enhances performance by compressing files before delivery, reducing data transfer, and decompressing them at the user's end. Additionally, it offers geo-filtering, enabling content access rules based on user location, thus allowing or blocking content in specific regions.
 
 **Azure DNS**
+
 Azure DNS is a cloud service that allows you to host and manage domain name system (DNS) domains, also known as DNS zones. A DNS zone is a collection of DNS records. DNS records can relate a Fully Qualified Domain Name (FQDN) associated with the zone to an IP address or another DNS record.
 
 Azure DNS can replace traditional DNS servers that you might run on-premises. Instead of managing a DNS server yourself or through a third-party DNS provider. Azure DNS is more resilient to network failures than DNS services hosted on individual servers.
