@@ -76,7 +76,9 @@ Aliases: In Azure DNS, you can use an alias record set to refer to an Azure reso
 - [fileREST API](https://learn.microsoft.com/en-us/rest/api/storageservices/file-service-rest-api)
 - https://learn.microsoft.com/en-us/training/modules/intro-to-azure-content-delivery-network/
 - https://learn.microsoft.com/en-us/training/modules/azure-database-fundamentals/
+- https://azure.microsoft.com/en-us/products/category/databases
 - ChatGPT
+- [Create sample databse](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql-db&tabs=azure-portal)
 
 
 
@@ -91,7 +93,8 @@ Protocols: Azure Files supports two industry-standard file sharing protocols: Se
 
 Mounting: Azure file shares can be mounted concurrently by cloud or on-premises deployments. SMB Azure file shares can also be cached on Windows servers with Azure File Sync for faster access near where the data is being used.
 
-Lift and Shift: Azure Files makes it easy to "lift and shift" applications to the cloud that expect a file share to store file application or user data. This means you can move your on-premises files and applications to the cloud with minimal changes.
+Lift and Shift:  Moving a copy of an existing application and data to cloud infrastructure with minimal or no redesigning or modification. Azure Files makes it easy to "lift and shift" applications to the cloud that expect a file share to store file application or user data. 
+
 
 Tiers: Azure Files offers multiple tiers that you can select based on your budget and performance needs.
     - Premium (SSD), [SMB, REST, NFS], [LRS,ZRS], only provisioned billing model
@@ -111,3 +114,64 @@ Created an file share in Storage Account and succesfully mounted it in windows.
 
 
 #### Azure Database
+Azure SQL Managed Instance is a cloud-based, fully managed version of the SQL Server database engine provided by Microsoft Azure, which automates most of the database management functions, allowing users to focus more on their data and less on database maintenance.
+Azure offers a choice of relational and non-relational databases:
+
+**Relational Databases**
+- Azure SQL Database: It is a fully managed relational cloud database service that provides the broadest SQL Server engine compatibility. Best for:
+    - High-performance transactional applications
+    - Finance, sales order management, systems of record
+
+- Azure Database for PostgreSQL: It is a fully-managed database service for app developers using community PostgreSQL (Open-source). Best for:
+    - Secure and scalable e-commerce solutions
+    - Finance management apps
+    - Scalable web and mobile apps
+
+- Azure Database for MySQL: It is a fully-managed database service for app developers using the MySQL community edition (Open-source).
+    - Scalable web and mobile apps
+    - High-performance and secure finance management apps
+    - Low-latency gaming experiences
+
+- Azure Database for MariaDB (Open-source): It is a fully managed, enterprise-ready community MariaDB database as a service.
+
+
+**Non-relational Databases**
+- Azure Cosmos DB - A globally distributed, multi-model database service
+- Azure Cache for Redis: It improves the performance of your applications by providing a high-speed, distributed cache that reduces latency for data access.
+- Azure Database for MongoDB: A fully managed service that is compatible with the MongoDB community edition.
+- Azure Table Storage: A service that stores structured NoSQL data in the cloud, providing a key/attribute store with a schema-less design.
+
+
+
+**Relational Database** - Relational databases, often referred to as SQL databases, use Structured Query Language (SQL) for defining and manipulating the data. They are characterized by a set of tables where data gets fit into predefined categories. Each table has one or more data categories in columns, and each row has a specific data instance for the categories defined by the columns.
+
+**Azure Non-relational Databases**
+Non-relational databases, often referred to as NoSQL databases, store data in a non-tabular form, and the schema can be implicit and not as strictly enforced as in relational databases. These are often used for large sets of distributed data.
+
+
+**Relationship** Connection or interaction between two or more data tables, which helps in organizing and structuring the data
+**Primary Key:** A unique identifier for each record in a table.
+**Foreign Key:** A field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
+
+
+**SQL**
+SQL (Structured Query Language) is a standard language for managing and manipulating relational databases.
+Keywords used in SQL:
+
+- SELECT: Used to select data from a database and retrieve just the information you want.
+- FROM: Specifies the table from which to retrieve the data.
+- WHERE: Used to filter records based on specific conditions.
+- INSERT INTO: Used to insert new data into a table.
+- UPDATE: Used to modify the existing records in a table.
+- DELETE: Used to remove existing records from a table.
+- CREATE DATABASE: Used to create a new database.
+- ALTER DATABASE: Used to modify a database.
+- CREATE TABLE: Used to create a new table.
+- ALTER TABLE: Used to modify a table.
+- DROP TABLE: Used to delete a table.
+- JOIN: Used to combine rows from two or more tables, based on a related column.
+- UNION: Used to combine the result-set of two or more SELECT statements.
+- GROUP BY: Used to group rows that have the same values in specified columns into aggregated data.
+- HAVING: Like a WHERE clause, but for use with GROUP BY.
+- ORDER BY: Used to sort the result-set in ascending or descending order.
+- INDEX: Used to create and retrieve data from the database very quickly.

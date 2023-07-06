@@ -24,7 +24,7 @@ Managing costs to maximize the value delivered.
 **Reliability**
 The ability of a system to recover from failures and continue to function.
 
-- Build a highly available architecture: Make sure your application can keep working even when one part of it fails. This is done by adding redundancy, which means having backup components ready to take over if the main ones fail
+- Build a highly available architecture: Make sure your application can keep working even when one part of it fails. This is done by adding redundancy, which means having backup components ready to take over if the main ones fails.
 - Build an architecture that can recover from failure: Plan for how your application will recover if there is a major problem, like a big data loss or a long period of downtime. This involves figuring out what your recovery strategies are and how much they will cost. You should also define your Recovery Point Objective (RPO, the maximum amount of data you can afford to lose) and Recovery Time Objective (RTO, the maximum amount of time you can afford for your application to be down).
    
 
