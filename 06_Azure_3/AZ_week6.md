@@ -36,7 +36,7 @@ Microsoft offers four support plans that can provide you with technical support:
 - Professional Direct: For business-critical environments, this plan also offers 24/7 technical support with a one-hour response time but also includes operational support, training, and proactive guidance from a ProDirect delivery manager.
 
 **Azure Advisor**
-Advisor is a personalized cloud consultant that helps you follow best practices (CROPS) to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, high availability, and security of your Azure resources .
+Advisor is a personalized cloud consultant that helps you follow best practices (CROPS) to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, high availability, and security of your Azure resources.
 
 
 **Azure App Configuration**
@@ -70,4 +70,69 @@ The log entries has an retention periode of 90 days, but if you need to keep the
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+#### Active Directory
+
+Azure Active Directory (Azure AD) is a cloud-based service for identity and access management.
+Azure AD allows you to create role-assignable groups and assign Azure AD roles to these groups. This feature simplifies role management, ensures consistent access, and makes auditing permissions more straightforward.
+
+Services Azure AD provides:
+- Authentication (MFA)
+- Single sign-on (SSO) - Use a single sign-in to access all resources that a user has permission to access.
+- Application management - Manage cloud and on-premises apps
+- Device management - Allows for device-based Conditional Access policies to restrict access attempts. 
+Microsoft Intune provides cloud-based mobile device management.
+- Conditional Access - Decide who gets access to what resources, based on things like who the user is, where they are, and what device they're using.
+Some examples of conditions:
+
+    |Conditions|Controls|
+    |---|---|
+    |When any user is outside the company network|They're required to sign in with multifactor authentication|
+    |When users in the 'Managers' group sign-in|They are required be on an Intune compliant or domain-joined device|
+
+The cloudbased Azure AD can be connected to on-premise Active Directory using Azure AD Connect to create a hybrid environment.
+
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-W6_screen02.png)
+
+
+#### Azure Monitor
+Azure Monitor is a comprehensive service provided by Microsoft Azure for collecting, analyzing, and acting on telemetry from cloud and on-premises environments. It is used by IT Operations, DevOps, and developer teams to maximize the availability and performance of applications and services.
+Azure Monitor is enabled by default. As soon as you create an Azure subscription and start adding resources such as web apps, Azure Monitor starts collecting data.
+- Metrics are stored 93 days by default.
+
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-W6_screen03.png)
+
+Key aspects of Azure Monitor:
+
+- The collected data is stored in one of two data stores: Azure Monitor Metrics for numerical time-series values and Azure Monitor Logs for storing log data.
+- Azure Monitor metrics are automatically collected and stored for Azure resources, but user configuration is required to send and store resource logs in Azure Monitor Logs.
+- You can use Azure Monitor to visualize data with workbooks and dashboards, as well as analyze data with custom charts and analytics. Azure Monitor lets you receive notifications and take automated actions based on performance and availability criteria.
+- Includes Insights, each Insight is tailored to a specific service. They provide detailed, service-specific views that can help you understand the operation of that service in depth.
+Here are some examples of Insights in Azure Monitor:
+    - Application Insights - This is designed for application developers. helps you understand how your app is performing and how it's being used.
+    - VM Insights - Provides an in-depth view of your virtual machines' performance
+    - Container Insights - This monitors the performance of container workloads deployed to managed Kubernetes clusters hosted on Azure Kubernetes Service (AKS).
+    - Network Insights - provides a comprehensive view of your network performance.
+    - Storage Insights - Provides detailed metrics and logs for your Azure Storage accounts
+
+Azure Dashboards helps you visualize and combining different kinds of data in 1 single pane.
+
+Workbooks provide a flexible canvas for data analysis and creating rich visual reports in the Azure portal
+
+**Azure Monitor Metrics**
+Each set of recorded values contains the following set of properties:
+- A time stamp from when the value was collected
+- The associated resource for the value
+- A namespace, which acts as a category for the metric
+- A metric name
+- The actual value that was recorded
+- Multi-dimensional metrics for supported recorded values
+
+With the Azure Monitor agent installed on your virtual machines, you can collect data from the guest operating system and any applications running on it. Data is presented in a chart or graph format.
+
+
+
+
+**Logs & Logs**
+With **Metrics explorer** you can focus on analyzing metrics of a specific resource
+
+You can analyze log data using **Log Analytics** with queries to quickly retrieve, consolidate, and analyze collected data.
