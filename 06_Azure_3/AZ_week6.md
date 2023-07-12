@@ -64,6 +64,8 @@ The log entries has an retention periode of 90 days, but if you need to keep the
 [Azure container options](https://learn.microsoft.com/en-us/azure/container-apps/compare-options)
 [Azure App Configuration](https://github.com/Azure/AppConfiguration)
 [Azure activity log](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell)
+[Cosmos DB](https://www.infoq.com/articles/Cosmos-DB-Tutorial/)
+[Cosmos-DB](https://www.youtube.com/watch?v=R_Fi59j6BMo)
 
 
 ### Ervaren problemen
@@ -93,7 +95,7 @@ The cloudbased Azure AD can be connected to on-premise Active Directory using Az
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-W6_screen02.png)
 
-
+---
 #### Azure Monitor
 Azure Monitor is a comprehensive service provided by Microsoft Azure for collecting, analyzing, and acting on telemetry from cloud and on-premises environments. It is used by IT Operations, DevOps, and developer teams to maximize the availability and performance of applications and services.
 Azure Monitor is enabled by default. As soon as you create an Azure subscription and start adding resources such as web apps, Azure Monitor starts collecting data.
@@ -129,10 +131,57 @@ Each set of recorded values contains the following set of properties:
 
 With the Azure Monitor agent installed on your virtual machines, you can collect data from the guest operating system and any applications running on it. Data is presented in a chart or graph format.
 
+**Metrics & Logs**
+With **Metrics explorer** you can focus on analyzing metrics of a specific resource.
+
+By setting up a **Log Analytics workspace** You can analyze log data  with queries to quickly retrieve, consolidate, and analyze collected data.
+
+---
+#### CosmosDB
+I installed Azure CosmosDB Emulator on my local pc. Imported this sample [database](https://github.com/Azure-Samples/azure-cosmos-db-sample-data/blob/main/SampleData/VolcanoData.json) with data about volcano's worldwide. Then I ran some queries and played with the data a little bit.
+
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-W6_screen04.png)
+
+**Azure Cosmos DB**
+Azure Cosmos DB is a globally distributed, multi-model database service designed for scalable and high performance modern applications. It's delivered as a fully managed service within Microsoft Azure (PaaS).
 
 
+Azure Cosmos DB is a non-relational or NoSQL database. This means it doesn't use the traditional table-based relational database structure. Its a great way to store and query unstructured data.
 
-**Logs & Logs**
-With **Metrics explorer** you can focus on analyzing metrics of a specific resource
+**Global Distribution**: Cosmos DB is designed for global distribution. It allows you to scale and replicate your data across multiple regions. This means your data is close to your users, providing them with low latency access. 
 
-You can analyze log data using **Log Analytics** with queries to quickly retrieve, consolidate, and analyze collected data.
+**Multi-Model Support**: Cosmos DB supports multiple data models including key-value, document, wide column, and graph. It also provides multiple APIs for accessing data including SQL, MongoDB, Cassandra, Tables, and Gremlin.
+
+**Elastic Scalability**: Cosmos DB allows you to scale throughput and storage elastically across the globe.\
+
+**High Availability** and Real-Time Analytics with **Azure Synapse Link**.
+
+
+##### Cost
+Cosmos DB can be expensive, especially if not used correctly. You pay for the throughput you provision measured in Request Units (RU). Every operation in Cosmos DB, such as read, write, or query, costs a certain number of RUs.
+
+In terms of integration, Azure Cosmos DB can work with a variety of Azure resources. For instance, it can be used with Azure Functions for serverless computing, Azure Synapse Analytics for big data analytics, and Azure Logic Apps for building automated workflows.
+
+Compared to other databases in Azure, Cosmos DB stands out for its global distribution, multi-model support, and elastic scalability. However, for applications that don't require these features, other databases like Azure SQL Database or Azure Database for PostgreSQL might be more cost-effective.
+
+---
+### Azure Functions
+Azure Functions lets you develop serverless applications on Microsoft Azure. You can write just the code "functions" you need for the problem at hand, without worrying about a whole application or the infrastructure to run it.
+
+Extension of Azure App Services.
+
+Supports Multiple languages:
+C# (.NET, .NET Core), Java, JavaScript (NodeJS), Python, F#.
+
+Azure Functions uses a pay-as-you-go model, where you are billed based on your actual usage of the service. There are two main components to the billing:
+- Consumption Plan: includes a monthly free grant of 1 million requests and 400,000 GB-s of resource consumption per month (execution time + total executions)
+- Premium Plan: Same features as the Consumption Plan with no cold start, enhanced performance and VNET access. Billing for the Premium plan is based on the number of core seconds and memory allocated across instances. There is no execution charge. (CPU time + Memory time)
+
+**Pricing Tier Timeout Differences**
+There is a limitation of Azure Functions in the duration of how long a Function of code can run:
+|Pricing Tier|Default Timeout|Minimum|Maximum|
+|---|---|---|---|
+|Consumption Plan|5 min|1 min|10 min|
+|Premium Plan|30 min|1 sec|60 min|
+|App Service Plan|30 min||No limit (set using `-1` value)|
+
