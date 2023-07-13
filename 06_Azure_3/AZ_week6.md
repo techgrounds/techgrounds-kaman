@@ -1,15 +1,15 @@
 # Onderwerpen Cloud Fundamentals Week 6
-Containers					
+Containers				
 Azure Support Plans				
-Azure Advisor					
-Azure App Configuration		
-Azure Activity Log	
+Azure Advisor			
+Azure App Configuration	
+Azure Activity Log
 
 Azure Active Directory	
 Azure Monitor					
-CosmosDB 				
-Azure Functions 		
-Event Grid, Queue Storage, Service Bus 
+CosmosDB
+Azure Functions
+Event Grid, Queue Storage, Service Bus
 
 
 ## Key-terms
