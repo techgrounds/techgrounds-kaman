@@ -68,17 +68,17 @@ The log entries has an retention periode of 90 days, but if you need to keep the
 
 ## Opdracht
 ### Gebruikte bronnen
-[Support plans 1](https://azure.microsoft.com/en-us/support/plans) 
-[Support Plans 2](https://k21academy.com/microsoft-azure/az-900/az-900-azure-support-options/)
-[Containers](https://cloud.google.com/learn/what-are-containers#:~:text=Containers%20are%20packages%20of%20software,on%20a%20developer's%20personal%20laptop.)
-[Azure Container Instances](https://learn.microsoft.com/nl-nl/azure/container-instances/container-instances-overview)
-[Azure container options](https://learn.microsoft.com/en-us/azure/container-apps/compare-options)
-[Azure App Configuration](https://github.com/Azure/AppConfiguration)
-[Azure activity log](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell)
-[Cosmos DB](https://www.infoq.com/articles/Cosmos-DB-Tutorial/)
-[Cosmos-DB](https://www.youtube.com/watch?v=R_Fi59j6BMo)
-[Even Grid](https://www.serverless360.com/azure-event-grid)
-[Azure Service Bus](https://hevodata.com/learn/azure-service-bus/#i1)
+- [Support plans 1](https://azure.microsoft.com/en-us/support/plans) 
+- [Support Plans 2](https://k21academy.com/microsoft-azure/az-900/az-900-azure-support-options/)
+- [Containers](https://cloud.google.com/learn/what-are-containers#:~:text=Containers%20are%20packages%20of%20software,on%20a%20developer's%20personal%20laptop.)
+- [Azure Container Instances](https://learn.microsoft.com/nl-nl/azure/container-instances/container-instances-overview)
+- [Azure container options](https://learn.microsoft.com/en-us/azure/container-apps/compare-options)
+- [Azure App Configuration](https://github.com/Azure/AppConfiguration)
+- [Azure activity log](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell)
+- [Cosmos DB](https://www.infoq.com/articles/Cosmos-DB-Tutorial/)
+- [Cosmos-DB](https://www.youtube.com/watch?v=R_Fi59j6BMo)
+- [Even Grid](https://www.serverless360.com/azure-event-grid)
+- [Azure Service Bus](https://hevodata.com/learn/azure-service-bus/#i1)
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
@@ -241,7 +241,7 @@ Security is one of the important parameters in any resource. Azure Event Grid pr
 ---
 ### Azure Queue Storage
 
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-W6_screen06.png)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/AZ-W6_screen07.png)
 
 Azure Queue Storage is a sub-service of Azure Storage Account.
 Azure Queue storage is a service used for storing the various large number of messages which need to be accessed from any region in the world. As it uses Azure data centers worldwide, these calls should come via authenticated calls using HTTP or HTTPS.
