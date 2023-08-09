@@ -238,6 +238,7 @@ An event handler is an application or resource that receives events from Azure E
 **Security**
 Security is one of the important parameters in any resource. Azure Event Grid provides security for subscribing to topics, and publishing topics. When subscribing, you must have adequate permissions on the resource or event grid topic. When publishing, you must have a SAS token or key authentication for the topic.
 
+Push-push model/Publish-subscribe model.
 ---
 ### Azure Queue Storage
 
@@ -283,3 +284,5 @@ Storage queues and Service Bus queues have slightly different feature sets. You 
 - Service Bus supports Dead-Letter Queues, which are used to store messages that can't be processed for some reason.
 - Transactions support.
 
+Service Bus works with a push-pull model. The receiving app can choose the speed at which it processes messages or events.
+Can also configured as push-push
