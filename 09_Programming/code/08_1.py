@@ -19,4 +19,7 @@ thisdict = {
     "Company": "Techgrounds"
 }
 
-print(thisdict["Job title"])
+
+for key in thisdict:
+    value = thisdict[key]
+    print(key,":", value)
