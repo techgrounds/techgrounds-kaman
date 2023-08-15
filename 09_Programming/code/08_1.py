@@ -20,6 +20,8 @@ thisdict = {
 }
 
 
+
 for key in thisdict:
     value = thisdict[key]
-    print(key,":", value)
+    print(key, ":", value)
+    
