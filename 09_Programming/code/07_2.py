@@ -14,10 +14,10 @@ my_list = [8,3,20,6,12]
 
 for i in range(len(my_list)):
 
-# tel de 2 getallen bij elkaar op tot dat i bij de laatste is geeindigd.
+# tel de 2 getallen bij elkaar op tot dat i bij de laatste is.
     if i != len(my_list) - 1:
         print( my_list[i] + my_list[i + 1])
     else:
-    #  tel de laaste op bij de eerste.
+    #  tel de laatste op bij de eerste.
         print( my_list[i] + my_list[0])
     
