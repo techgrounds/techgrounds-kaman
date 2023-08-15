@@ -45,6 +45,6 @@ with open(file_name,'a', newline='') as csvfile:
     
     # Als het bestand nog niet bestaat, schrijf ook de headers.
     if file_exists == False:
-    writer.writeheader()
+        writer.writeheader()
     # write the values from thisdict as a new row in the CSV file.    
     writer.writerow(thisdict)
