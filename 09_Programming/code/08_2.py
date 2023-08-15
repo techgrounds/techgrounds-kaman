@@ -44,7 +44,7 @@ with open(file_name,'a', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=thisdict.keys())
     
     # Als het bestand nog niet bestaat, schrijf ook de headers.
-    if file_exists == False:
-        writer.writeheader()
+#    if file_exists == False:
+    writer.writeheader()
     # write the values from thisdict as a new row in the CSV file.    
     writer.writerow(thisdict)
