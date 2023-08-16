@@ -17,7 +17,7 @@ def cpu_move():
     #print(cpu_random)
     return cpu_random
 
-# Check whether the move is valid or not. Prints the move you played. Return True or False.
+# Check whether the move is valid or not. Prints the move you've played. Return True or False.
 def valid_move_check(move):
     if move == "r" or move == "p" or move == "s":
         if move == "r":
