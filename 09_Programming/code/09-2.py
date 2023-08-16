@@ -61,24 +61,36 @@ def who_wins(player_hand, cpu_hand):
         return "player"
     else:
         print("\n   You lose!\n")
+        return "cpu"
 
-#score = {"player": 0, "cpu": 0, "draw": 0}
-#def keep_score(winner):
-#    score[winner] += 1
+#Dictionary to keep track of scores
+scoreboard = {"player": 0, "cpu": 0, "draw": 0}
 
+# add the winner to scoreboard
+def keep_score(winner):
+    scoreboard[winner] += 1
 
 #Start of the game
-rounds = 1
-total_rounds = 5
-print("\nWelcome to Rock Paper Scissors!\n")        
-while rounds <= total_rounds:
-    player_move = input("What is your move? (r,p,s): ").lower()
-    if valid_move_check(player_move) == False:
+print("\nWelcome to Rock Paper Scissors!\n")   
+
+# check if user input for rounds is a number
+while (True):
+    rounds = input("How many rounds do you wanna play?: ")
+    if rounds.isdigit():
+        
+        # Game begins
+        for _ in range(int(rounds)):
+            
+            player_move = input("What is your move? (r,p,s): ").lower()
+            if valid_move_check(player_move) == False:
+                continue
+            
+            #compare user input with cpu 
+            winner = who_wins(player_move, cpu_move())
+            
+            #add the winner to the scoreboard
+            keep_score(winner)
+            print(scoreboard)
+            
+    else:
         continue
-    #compare user input with cpu 
-    who_wins(player_move, cpu_move())
-    
-    #keep_score(who_wins)
-    #keep_score(who_wins)
-    rounds += 1
-    
