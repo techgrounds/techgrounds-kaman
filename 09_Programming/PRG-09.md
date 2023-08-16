@@ -8,7 +8,7 @@ Number Guessing:
 Geen problemen ervaren.
 
 Rock Paper Scissors:
-Ik zat lang vast bij het maken van de function die de scores kan bijhouden. ChatGPT gebruikt om mij weer op weg te helpen. Chatgpt gebruikte een dictionary om de scores op te slaan. Dat had ik niet zelf kunnen verzinnen. Deze manier ook gebruikt in mijn script en het werkte uitstekend.
+De game heb ik werkend gemaakt zonder dat scores worden bij gehouden. Ik zat lang vast bij het bedenken van een function die de scores kan bijhouden. ChatGPT gebruikt om mij weer op weg te helpen. Chatgpt gebruikte een dictionary om de scores op te slaan. Dat had ik niet zelf kunnen verzinnen. Deze manier ook gebruikt in mijn script en het werkte uitstekend.
 
 ### Resultaat
 ---
