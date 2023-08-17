@@ -91,6 +91,7 @@ def player2():
         p2_box_number = random.randint(0,8) 
         if board[p2_box_number] == " ":
             board[p2_box_number] = p2_token
+            print("CPU's turn:")
             break
         else:
             continue
@@ -103,19 +104,19 @@ draw_board(board)
 while (True):
     player1()
     draw_board(board)
-    if check_board_ful() == True:
-        print("It's a draw!")
-        break
     if check_win() == p1_token:
         print("Player 1 wins!")
+        break
+    if check_board_ful() == True:
+        print("It's a draw!")
         break
     
     player2()
     draw_board(board)
-    if check_board_ful() == True:
-        print("It's a draw!")
-        break
     check_win()
     if check_win() == p2_token:
         print("Player 2 wins!")
+        break
+    if check_board_ful() == True:
+        print("It's a draw!")
         break
