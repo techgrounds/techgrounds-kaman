@@ -51,8 +51,8 @@ Bonus: create a single-player version that you can play against the computer.
 ```
 **player vs. player**
 [script (rock paper scissors)](code/09_3_player.py)
+**player vs. cpu**
+[script (rock paper scissors)](code/09_3_cpu.py)
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/PRG-09_screenshot02.png)
 
-**player vs. cpu**
-[script (rock paper scissors)](code/09_3_cpu.py)
