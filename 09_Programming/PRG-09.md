@@ -40,3 +40,18 @@ The game should be played in a predetermined number of rounds.
 [script (rock paper scissors)](code/09_2.py)
 
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/PRG-09_screenshot01.png)
+ 
+---
+
+```
+Tic-Tac-Toe:
+Generate a 3x3 board on the command line.
+This is a 2-player game, where one player inputs “X” and the other player inputs “O”.
+Bonus: create a single-player version that you can play against the computer.
+```
+**player vs. player**
+[script (rock paper scissors)](code/09_3_player.py)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/PRG-09_screenshot02.png)
+
+##player vs. cpu**
+[script (rock paper scissors)](code/09_3_cpu.py)
