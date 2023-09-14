@@ -1,0 +1,20 @@
+# BENODIGDE RESOURCES
+- 2 Vnets in verschillende availability zones
+    - Vnet1
+    - Vnet2
+- subnets: Management/Application subnet
+    - 10.10.10.0/24 
+    - 10.20.20.0/24
+- 2 firewalls op subnet niveau (NSG)
+    - NSG voor Vnet1 	
+    - NSG voor Vnet2
+- 1 Storage account voor opslag van bootstrap scripts
+- Blob storage met private toegang
+- 2 Virtual Machines
+    - 1 Management server (Windows Server)
+    - 1 Webserver (Unbuntu Server + Apache webserver)
+    - 2 Public ip adresses
+    - 2 NIC's
+- 1 Keyvault
+- Disk encryption set
+- Recovery Service Vault
