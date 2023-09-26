@@ -1,8 +1,8 @@
 <h1 align="center">Project Cloud Transition v1.1</h1>
 <p align="center">
-  <i>placeholder</i>
+  <i></i>
    <br/>
-  <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/> <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/BicepLogoImage.svg"/>
+  <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/> <img width="80" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/BicepLogoImage.svg"/>
   <br/>
   <b><a href="https://github.com/techgrounds/techgrounds-kaman/blob/main/10_Project/v1.1/docs/design%20documentation.md">Design Document</a></b> | <b><a href="https://github.com/techgrounds/techgrounds-kaman/tree/main/10_Project/v1.0%20mvp/src">Deployment Scripts</a></b>
   <br/><br/>
