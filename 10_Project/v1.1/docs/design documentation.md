@@ -119,3 +119,7 @@ v1.1
 - VM Scale set
     - Health extension
     - Autoscale settings
+
+
+## VS Code Visualizer
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/visualiser_v11.png)
