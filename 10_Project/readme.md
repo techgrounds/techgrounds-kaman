@@ -17,31 +17,39 @@
     <img src="https://img.shields.io/github/commit-activity/w/techgrounds/techgrounds-kaman?style=flat-square" alt="Commit activity">
   </a>
 </p>
+<details open>
+  <summary>Contents of <i>src</i> directory</summary>
+  <p>
+    <pre>
+    v1.1
+    │
+    └───src
+        │   main.bicep
+        │
+        ├───certs
+        │       rootCA.cer
+        │       rootCA.csr
+        │       rootCA.key
+        │       serverCert.cer
+        │       serverCert.csr
+        │       serverCert.key
+        │       serverCert.pfx
+        │
+        ├───init
+        │       init_testing.sh
+        │       init_webserver.sh
+        │
+        └───modules
+                backup.bicep
+                encryption.bicep
+                network.bicep
+                storageAccount.bicep
+                vmManagementServer.bicep
+                webFarm.bicep
+    </pre>
+ </p>
+</details>
 
-<pre>
-v1.1
-│
-└───src
-    │   main.bicep
-    │
-    ├───certs
-    │       rootCA.cer
-    │       rootCA.csr
-    │       rootCA.key
-    │       serverCert.cer
-    │       serverCert.csr
-    │       serverCert.key
-    │       serverCert.pfx
-    │
-    ├───init
-    │       init_testing.sh
-    │       init_webserver.sh
-    │
-    └───modules
-            backup.bicep
-            encryption.bicep
-            network.bicep
-            storageAccount.bicep
-            vmManagementServer.bicep
-            webFarm.bicep
-</pre>
+[!NOTE]
+aaabbb
+<kbd>Key</kbd>
