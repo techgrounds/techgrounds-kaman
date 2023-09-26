@@ -20,24 +20,28 @@
 
 <pre>
 v1.1
- ┗ src
-  ┣ certs
-  ┃ ┣ rootCA.cer
-  ┃ ┣ rootCA.csr
-  ┃ ┣ rootCA.key
-  ┃ ┣ serverCert.cer
-  ┃ ┣ serverCert.csr
-  ┃ ┣ serverCert.key
-  ┃ ┗ serverCert.pfx
-  ┣ init
-  ┃ ┣ init_testing.sh
-  ┃ ┗ init_webserver.sh
-  ┣ modules
-  ┃ ┣ backup.bicep
-  ┃ ┣ encryption.bicep
-  ┃ ┣ network.bicep
-  ┃ ┣ storageAccount.bicep
-  ┃ ┣ vmManagementServer.bicep
-  ┃ ┗ webFarm.bicep
-  ┗ main.bicep
+│
+└───src
+    │   main.bicep
+    │
+    ├───certs
+    │       rootCA.cer
+    │       rootCA.csr
+    │       rootCA.key
+    │       serverCert.cer
+    │       serverCert.csr
+    │       serverCert.key
+    │       serverCert.pfx
+    │
+    ├───init
+    │       init_testing.sh
+    │       init_webserver.sh
+    │
+    └───modules
+            backup.bicep
+            encryption.bicep
+            network.bicep
+            storageAccount.bicep
+            vmManagementServer.bicep
+            webFarm.bicep
 </pre>
