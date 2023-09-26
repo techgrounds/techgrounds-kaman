@@ -2,7 +2,7 @@
 <p align="center">
   <i></i>
    <br/>
-  <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/> <img width="80" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/BicepLogoImage.svg"/>
+  <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/> <img width="120" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/BicepLogoImage.svg"/>
   <br/>
   <b><a href="https://github.com/techgrounds/techgrounds-kaman/blob/main/10_Project/v1.1/docs/design%20documentation.md">Design Document</a></b> | <b><a href="https://github.com/techgrounds/techgrounds-kaman/tree/main/10_Project/v1.0%20mvp/src">Deployment Scripts</a></b>
   <br/><br/>
@@ -19,23 +19,25 @@
 </p>
 
 <pre>
-📦src
- ┣ 📂certs
- ┃ ┣ 📜rootCA.cer
- ┃ ┣ 📜rootCA.csr
- ┃ ┣ 📜rootCA.key
- ┃ ┣ 📜serverCert.cer
- ┃ ┣ 📜serverCert.csr
- ┃ ┣ 📜serverCert.key
- ┃ ┗ 📜serverCert.pfx
- ┣ 📂init
- ┃ ┗ 📜init_webserver.sh
- ┣ 📂modules
- ┃ ┣ 📜backup.bicep
- ┃ ┣ 📜encryption.bicep
- ┃ ┣ 📜network.bicep
- ┃ ┣ 📜storageAccount.bicep
- ┃ ┣ 📜vmManagementServer.bicep
- ┃ ┗ 📜webFarm.bicep
- ┗ 📜main.bicep
+v1.1
+ ┗ src
+  ┣ certs
+  ┃ ┣ rootCA.cer
+  ┃ ┣ rootCA.csr
+  ┃ ┣ rootCA.key
+  ┃ ┣ serverCert.cer
+  ┃ ┣ serverCert.csr
+  ┃ ┣ serverCert.key
+  ┃ ┗ serverCert.pfx
+  ┣ init
+  ┃ ┣ init_testing.sh
+  ┃ ┗ init_webserver.sh
+  ┣ modules
+  ┃ ┣ backup.bicep
+  ┃ ┣ encryption.bicep
+  ┃ ┣ network.bicep
+  ┃ ┣ storageAccount.bicep
+  ┃ ┣ vmManagementServer.bicep
+  ┃ ┗ webFarm.bicep
+  ┗ main.bicep
 </pre>
