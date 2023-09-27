@@ -2,7 +2,7 @@
 <p align="center">
   <i></i>
   <br/>
-  <img width="140" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/>
+  <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/>
   <br/>
 
   <b>
@@ -17,12 +17,12 @@
 
 ### Overview
 
-This manual describes how to deploy an Azure infrastructure using a Bicep file. Bicep is a declarative language for deploying Azure resources. 
+This manual describes how to deploy the Azure infrastructure i created for my final project using a Bicep file. Bicep is a declarative language for deploying Azure resources.
 
 ### Setup
-1. Ensure you have the latest version of Powershell installed.
-2. Install the Bicep CLI.
-3. Login to your Azure account 
+1. Ensure you have the latest version of Powershell installed. 
+2. Open a Powershell terminal and install the Bicep CLI.
+3. Login to your Azure account with the command below and follow the instructions.
   `az login`
 4. Create a resource group to deploy the resources to using this command. Replace the region and resource group name.  
   `az group create -l <region> -n <resource_group_name>`
@@ -31,8 +31,12 @@ This manual describes how to deploy an Azure infrastructure using a Bicep file. 
 ### Configuration
 Download the latest release [here](https://github.com/techgrounds/techgrounds-kaman/releases) and extract the files to your local pc.
 
+The Bicep file contains parameters that you may want to configure before running the deployment. One of these parameters is the trusted IP address that can access the management server. The management server is only accessible from a trusted IP address, so you must add your own trusted IP address to the `main.bicep` file before running the deployment.
+Open the `main.bicep` file and find and edit the following line:
+`param trustedIP string = '<put_in_your_ip_address_here>`
+
 <details open>
-  <summary>Contents of <i>src</i> directory</summary>
+  <summary>Content of <i>src</i> directory</summary>
   <p>
     <pre>
     v1.1
@@ -55,8 +59,12 @@ Download the latest release [here](https://github.com/techgrounds/techgrounds-ka
 </p>
 </details>
 
-The Bicep file contain parameters that you might need to configure before running the deployment.
 
 ### Running the deployment
+In the PowerShell terminal, navigate to the directory where you extracted the files. Then, run the following command:
 
-` az deployment group create -g <resource_group_name> -f main.bicep -n <deploymentname>`
+` az deployment group create -g <resource_group_name> -f main.bicep -n <deployment_name>`
+
+Change the `<resource_group_name>` to the name of the resource group you created earlier. Give a name to the deployment by changing `<deployment-name>`. The `<deployment_name>` is important because the script uses it to generate a unique name for the key vault.
+
+The deployment will take about 8 minutes to complete. Then, it may take an additional 1-2 minutes for the website to become accessible.
