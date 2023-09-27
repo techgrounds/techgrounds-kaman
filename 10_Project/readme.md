@@ -18,21 +18,6 @@
   </a>
 </p>
 
-### Overview
-This manual describes how to deploy an Azure infrastructure using a Bicep file. Bicep is a declarative language for deploying Azure resources. 
-
-### Setup
-1. Ensure you have the latest version of Powershell installed.
-2. Install the Bicep CLI.
-3. Login to your Azure account 
-  `az login`
-4. Create a resource group to deploy the resources to using this command. Replace the region and resource group name.  
-  `az group create -l <region> -n <resource_group_name>`
-
-
-### Configuration
-Download everything in the `v1.1` directory (including sub directories) to your local pc.
-
 
 <details open>
   <summary>Contents of <i>src</i> directory</summary>
@@ -57,6 +42,21 @@ Download everything in the `v1.1` directory (including sub directories) to your 
     </pre>
 </p>
 </details>
+### Overview
+This manual describes how to deploy an Azure infrastructure using a Bicep file. Bicep is a declarative language for deploying Azure resources. 
+
+### Setup
+1. Ensure you have the latest version of Powershell installed.
+2. Install the Bicep CLI.
+3. Login to your Azure account 
+  `az login`
+4. Create a resource group to deploy the resources to using this command. Replace the region and resource group name.  
+  `az group create -l <region> -n <resource_group_name>`
+
+
+### Configuration
+Download the latest release [here](https://github.com/techgrounds/techgrounds-kaman/releases) and extract the files to your local pc.
+
 The Bicep file contain parameters that you might need to configure before running the deployment.
 
 ### Running the deployment
