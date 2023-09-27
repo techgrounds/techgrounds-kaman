@@ -68,6 +68,12 @@ In the PowerShell terminal, navigate to the directory where you extracted the fi
 
 `az deployment group create -g <resource_group_name> -f main.bicep -n <deployment_name>`
 
-Change the `<resource_group_name>` to the name of the resource group you have created earlier. Give a name to the deployment by changing `<deployment-name>`. The `<deployment_name>` is important because the script uses it to generate a unique name for the key vault.
+Change the `<resource_group_name>` to the name of the resource group you have created earlier. Give a name to the deployment by changing `<deployment-name>`.
 
-The deployment will take about 8 minutes to complete. Then, it may take an additional 1-2 minutes for the website to become accessible.
+> [!IMPORTANT]  
+> The `<deployment_name>` is important because the script uses it to generate a unique name for the key vault.
+
+During deployment, you will be prompted to enter a username and password. This username and password will be used for both the web server and the management server. Please enter a password that is at least 8 characters long and includes a combination of uppercase letters, lowercase letters, and numbers.
+
+> [!NOTE] 
+> The deployment will take about 8 minutes to complete. Then, it may take an additional 1-2 minutes for the website to become accessible.
