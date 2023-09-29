@@ -6,7 +6,7 @@
   <br/>
 
   <b>
-  <a href="https://github.com/techgrounds/techgrounds-kaman/blob/main/10_Project/v1.1/docs/design%20document.md">Design Document</a></b> | <b><a href="https://github.com/techgrounds/techgrounds-kaman/tree/main/10_Project/v1.1/src">Deployment Scripts</a></b> | <b><a href="https://github.com/techgrounds/techgrounds-kaman/blob/main/10_Project/v1.1/docs/user_stories.md">User Stories</a>
+  <a href="https://github.com/techgrounds/techgrounds-kaman/blob/main/10_Project/v1.1/docs/design_document.md">Design Document</a></b> | <b><a href="https://github.com/techgrounds/techgrounds-kaman/tree/main/10_Project/v1.1/src">Deployment Scripts</a></b> | <b><a href="https://github.com/techgrounds/techgrounds-kaman/blob/main/10_Project/v1.1/docs/user_stories.md">User Stories</a>
   </b>
   <br/>
   <br/>
@@ -36,14 +36,15 @@ Download the latest release [here](https://github.com/techgrounds/techgrounds-ka
 The Bicep files contains parameters that you may want to configure before running the deployment. One of these parameters is the trusted IP address that can access the management server. The management server is only accessible from a trusted IP address, so you must add your own IP address to the `main.bicep` file before running the deployment.
 
 Open the `main.bicep` file and find and edit the following line:
+
 `param trustedIP string = '<put_in_your_ip_address_here>`
 
 <details open>
-  <summary>Contents of <i>src</i> directory</summary>
+  <summary>Contents of <i>deploy</i> directory</summary>
   <p>
     <pre>
     v1.1
-      └───src
+      └───deploy
           │   main.bicep
           │
           ├───certs

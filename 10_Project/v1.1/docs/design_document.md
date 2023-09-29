@@ -121,5 +121,5 @@ v1.1
     - Autoscale settings
 
 
-## VS Code Visualizer
+## VS Code Bicep Visualizer
 ![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/visualiser_v11.png)
