@@ -1,7 +1,6 @@
 <h1 align="center">Project Cloud Transition To Azure</h1>
-<i>IaC deployment using Bicep</i>
 <p align="center">
-  <i>With Azure Bicep</i>
+  <i>IaC deployment using Bicep</i>
   <br/>
   <img width="160" src="https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/azure-original-wordmark.svg"/>
   <br/>
