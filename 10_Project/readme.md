@@ -1,4 +1,5 @@
-<h1 align="center">Project Cloud Transition v1.1</h1>
+<h1 align="center">Project Cloud Transition To Azure</h1>
+<i>IaC deployment using Bicep</i>
 <p align="center">
   <i>With Azure Bicep</i>
   <br/>

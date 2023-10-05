@@ -5,7 +5,7 @@ For this project, all resources and configuration will be implemented using Bice
 
 
 ### Architecture
-![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/Project_screen01.png)
+![Image](https://github.com/techgrounds/techgrounds-kaman/blob/main/00_includes/Project_screen02.png)
 
 ----
 ## Selected Resources
@@ -64,7 +64,7 @@ Requirement:
 
 To ensure high availability under load, a VM Scale Set is used to scale up when the cpu load exceeds a certain threshold. It will scale up to a maximum of 3 instances. The VMs running in the scale set will run on Ubuntu Server and function as web servers. Apache web server will be automatically installed using a cloud-init script.
 
-By using automatic repair and a health extension, the health status of the VMs will be constantly checked. If a VM is unhealthy, it will be deleted and a new one will be spawned. This ensures that there is always at least one healthy VM running in the scale set, and that the web application is always available to users.
+By using automatic repair and a health extension, the health status of the VMs will be constantly checked. If a VM is unhealthy, it will be deleted and a new one will be spawned. This ensures that there is always at least one healthy VM running in the scale set, and that the website is always available to users.
 
 ### Application Gateway
 Requirement:
