@@ -8,7 +8,7 @@
 param envType string = 'dev'
 
 // Allowed ip address for accessing the management server
-param trustedIP string = '86.80.121.15'
+param trustedIP string = '127.0.0.1'
 
 //param managementSvrIP string
 param location string = resourceGroup().location
